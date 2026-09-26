@@ -51,9 +51,9 @@ function SetTime() {
         state: `(EST) ${TimeOfDay} - ${Weekday[_Date.getDay()]}`,
         startTimestamp: HalfDay,
         
-        largeImageKey: "https://github.com/HarmonicDust/ASSETS/blob/main/Clock.png?raw=true",
+        largeImageKey: "https://github.com/Moonedusk/ASSETS/blob/main/Clock.png?raw=true",
 
-        smallImageKey: (SmallIcon === "Moon") ? "https://github.com/HarmonicDust/ASSETS/blob/main/Moon.png?raw=true" : "https://github.com/HarmonicDust/ASSETS/blob/main/Sun.png?raw=true",
+        smallImageKey: (SmallIcon === "Moon") ? "https://github.com/Moonedusk/ASSETS/blob/main/Moon.png?raw=true" : "https://github.com/Moonedusk/ASSETS/blob/main/Sun.png?raw=true",
         smallImageText: (SmallIcon === "Moon") ? "Wide awake!!" : "Asleep. DNI DURING THE DAY.",
         instance: false,
         buttons: [
